@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo-black.svg">
+
+    <title>DevBarber - Sua barbearia!</title>
+</head>
+<body>
+    
+    <div class="bg-slate-900 h-[550px] w-screen bg-home bg-cover bg-center md:hidden">
+        <div class="w-screen h-full flex flex-col justify-center items-center">
+            <div class="w-screen h-12 flex justify-center items-center mb-8">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s]"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s"></i></a>
+            </div>
+            <img src="./assets/logo.svg" alt="logo">
+            <p class="text-white w-[55%] text-center font-semibold mt-12">ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</p>
+            <p class="text-white text-xs text-center font-extralight mt-1">Horário de funcionamento: 09:00 ás 19:00</p>
+            <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank"><button class="bg-orange-700 h-8 w-36 rounded-md text-white mt-5 hover:bg-white hover:text-orange-700 hover:scale-[106%] transition-[0.2s] shadow-lg">Agende agora!</button></a>
+        </div>
+    </div>
+
+    <div class="bg-slate-900 h-[650px] w-screen bg-home bg-cover bg-center hidden flex-col md:flex">
+        <div class="flex justify-center items-center w-fukll h-[300px] flex-row bg-slate-900/50">
+            <div class="mr-36 flex justify-center items-center">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s]"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s"></i></a>
+            </div>
+            <img src="./assets/logo.svg" alt="logo" class="mr-44">
+            <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank"><button class="h-8 w-36 bg-transparent border-white border rounded-md text-white hover:bg-orange-700 hover:border-none hover:text-white cursor-pointer hover:scale-105 transition-[0.2s]">Agende agora</button></a>
+        </div>
+        <div class="flex justify-center flex-col items-center w-screen h-[350px] bg-slate-900/50">
+            <p class="text-white text-3xl w-[45%] text-center font-semibold">ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</p>
+            <p class="text-white text-sm w-[45%] text-center font-light mt-3">Horário de funcionamento: 09:00 ás 19:00.</p>
+            <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank"><button class="bg-orange-700 h-12 w-44 rounded-md text-white mt-5 hover:bg-white hover:text-orange-700 hover:scale-[106%] transition-[0.2s] shadow-lg">Agende agora!</button></a>
+        </div>
+    </div>
+
+    <div class="flex h-[700px] w-screen items-center justify-center flex-col mb-8 md:hidden">
+        <img src="./assets/images.svg" alt="image" class="h-96 drop-shadow-lg cursor-pointer hover:scale-105 transition-[0.5s]">
+        <p class="w-[75%] mt-12"><span class="font-semibold text-xl">Sobre nós</span> <br> Lorem ipsum dolor sit amet consectetur. Ornare eget pellentesque proin risus. Orci proin morbi vestibulum convallis leo vestibulum mus. Non duis augue eros mattis a quis sem sodales.
+            <span class="font-semibold"><br>Horário de funcionamento: 09:00 às 19:00</span></p>
+    </div>
+
+    <div class="w-full h-[500px] hidden md:flex items-center justify-center flex-row  mt-5">
+        <img src="./assets/images.svg" alt="img" class="h-[400px] drop-shadow-md cursor-pointer hover:scale-105 transition-[0.5s]">
+        <p class="w-[30%] mt-12 ml-28"><span class="font-semibold text-4xl">Sobre</span> <br> Lorem ipsum dolor sit amet consectetur. Ornare eget pellentesque proin risus. Orci proin morbi vestibulum convallis leo vestibulum mus. Non duis augue eros mattis a quis sem sodales.
+            <span class="font-semibold"><br>Horário de funcionamento: 09:00 às 19:00</span></p>
+    </div>
+
+    <div class="w-screen flex justify-center items-center flex-col bg-services bg-cover bg-center md:hidden ">
+        <div class="bg-slate-900/95 w-screen flex justify-center items-center flex-col pb-10">
+            <p class="font-semibold text-3xl text-white mt-6">Serviços</p>
+            <p class="text-center w-[80%] mb-6 text-white font-light text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nihil officiis sed magni in reiciendis cupiditate tenetur cumque voluptatum quibusdam, consectetur impedit quaerat dicta iusto velit atque enim culpa dolore.</p>
+            <div class="bg-white rounded-xl drop-shadow-xl shadow-lg h-[370px] hover:scale-[102%]">
+                <img src="./assets/corte1.png" alt="corte 1" class="rounded-t-xl cursor-pointer">
+                <div class="flex items-center justify-center mt-3">
+                    <p class="font-semibold mr-16">Corte Normal</p>
+                    <button class="bg-orange-700 h-8 w-20 rounded-lg text-white font-light drop-shadow-md">R$45,00</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl drop-shadow-xl shadow-lg h-[370px] hover:scale-[102%] mt-12">
+                <img src="./assets/corte3.png" alt="corte 3" class="rounded-t-xl cursor-pointer">
+                <div class="flex items-center justify-center mt-3">
+                    <p class="font-semibold mr-16">Barba completa</p>
+                    <button class="bg-orange-700 h-8 w-20 rounded-lg text-white font-light drop-shadow-md">R$35,00</button>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl drop-shadow-xl shadow-lg h-[370px] hover:scale-[102%] mt-12">
+                <img src="./assets/corte2.png" alt="corte 2" class="rounded-t-xl cursor-pointer">
+                <div class="flex items-center justify-center mt-3">
+                    <p class="font-semibold mr-16">Corte e barba</p>
+                    <button class="bg-orange-700 h-8 w-20 rounded-lg text-white font-light drop-shadow-md">R$85,00</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="hidden md:flex justify-center items-center flex-col w-screen bg-slate-900 mt-5">
+        <div class="w-screen flex justify-center items-center flex-col">
+            <p class="text-4xl text-white font-semibold mt-14">Serviços</p>
+            <p class="text-white w-[50%] mt-6 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem nihil officiis sed magni in reiciendis cupiditate tenetur cumque voluptatum quibusdam, consectetur impedit quaerat dicta iusto velit atque enim culpa dolore.</p>
+        </div>
+
+        <div class="flex pb-16">
+            <div class="bg-white rounded-xl drop-shadow-xl shadow-lg h-[370px] hover:scale-[102%] mt-16 mr-6">
+                <img src="./assets/corte1.png" alt="corte 1" class="rounded-t-xl cursor-pointer">
+                <div class="flex items-center justify-center mt-3">
+                    <p class="font-semibold mr-16">Corte Normal</p>
+                    <button class="bg-orange-700 h-8 w-20 rounded-lg text-white font-light drop-shadow-md">R$45,00</button>
+                </div>
+            </div>        
+            <div class="bg-white rounded-xl drop-shadow-xl shadow-lg h-[370px] hover:scale-[102%] mt-16 mr-6">
+                <img src="./assets/corte3.png" alt="corte 3" class="rounded-t-xl cursor-pointer">
+                <div class="flex items-center justify-center mt-3">
+                    <p class="font-semibold mr-16">Barba completa</p>
+                    <button class="bg-orange-700 h-8 w-20 rounded-lg text-white font-light drop-shadow-md">R$35,00</button>
+                </div>
+            </div>        
+            <div class="bg-white rounded-xl drop-shadow-xl shadow-lg h-[370px] hover:scale-[102%] mt-16">
+                <img src="./assets/corte2.png" alt="corte 2" class="rounded-t-xl cursor-pointer">
+                <div class="flex items-center justify-center mt-3">
+                    <p class="font-semibold mr-16">Corte e barba</p>
+                    <button class="bg-orange-700 h-8 w-20 rounded-lg text-white font-light drop-shadow-md">R$85,00</button>
+                </div>
+            </div>  
+        </div>      
+    </div>
+
+    <div class="w-screen mt-14 flex items-center justify-center flex-col pb-8">
+        <p class="font-semibold text-lg">Venha nos conhecer</p>
+        <iframe class="md:w-[80%] w-[98%] h-96 mt-4 drop-shadow-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.439773067834!2d-46.67093555307162!3d-23.59142070626013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sIbirapuera%20Park!5e0!3m2!1sen!2sbr!4v1715728785748!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class=" w-screen bg-slate-900 flex items-center justify-center flex-col mt-12 pb-10">
+        <div class="mt-16 flex">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s]"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s"></i></a>
+            <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok fa-2x text-white ml-2 mr-2 hover:text-orange-700 cursor-pointer hover:scale-[110%] transition-[0.2s"></i></a>
+        </div>
+        <img src="./assets/logo.svg" alt="logo" class="mt-8">
+        <p class="text-white font-light text-xs mt-4">Copyright 2024 | Dev Barbearia - Todos direitos reservados.</p>
+    </div>
+
+
+    <a 
+   href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
+   class="btn-whatsapp"
+   target="_blank"
+   data-aos="zoom-in-up" data-aos-delay="400"
+  >
+    <img src="assets/whatssapp.svg" alt="Botao whatsapp" class="max-w-[75px] transition-[0.4s] hover:scale-105" />
+    <span class="tooltip-text">Agende seu horário</span>
+  </a>
+
+</body>
+</html>
